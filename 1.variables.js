@@ -23,3 +23,5 @@ let accountState;
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
 // instead of console.log we can use console.table to print the values in table format
+
+const accountCountry = "India"
