@@ -1,0 +1,2 @@
+1. to run we use node filename ( ex , node test.js ) in the terminal.
+2. 
