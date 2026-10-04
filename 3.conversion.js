@@ -1,4 +1,4 @@
-// conversion in number
+// *********************************conversion in number *************************************
 
 let score="33"
 console.log(typeof score); //string
@@ -40,7 +40,8 @@ console.log(helloo); //NaN (Not a Number) because himanshi ko hum number m conve
 //"33abc" => NaN
 //true => 1 , false => 0
 
-// conversion in boolean
+// *********************************conversion in boolean *******************************
+
 let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(booleanIsLoggedIn); //true aa jaega output m
@@ -58,9 +59,9 @@ console.log(booleanIsLoggedIno); //true aa jaega output m
 // 1=> true , 0 => false
 //"" => false , "himanshi" => true
 
-//to string conversion
+// *********************************to string conversion *************************************
+
 let someNumber=33
 let stringNumber = String(someNumber)
 console.log(stringNumber); //33 aaega output m 
 console.log(typeof stringNumber); //string aa jaega output m 
-
