@@ -52,3 +52,24 @@ const myFunction = function(){
 console.log(typeof myFunction); //function ka type function hota h 
 console.log(typeof myObj); //object
 console.log(typeof heros); //object 
+
+//*********************** Memory ****************************
+
+/* Primitive -> stack , yaha copy milta h , original value m koi change nhi hota h
+Non-primitive -> heap , yaha reference milta h , original value m change hota h
+*/
+
+let myName = "himanshi"; 
+let myName2 = myName; 
+myName2 = "Sakshi";
+console.log(myName); 
+console.log(myName2); //pr yeah bus ek copy h , original value m koi change nhi hoga
+
+let userOne = {
+    email:"himanshiagg18@gmail.com",
+    upi:"himanshi@ybl"
+}
+let userTwo = userOne; //reference milta h , original value m change hoga
+userTwo.email = "sakshi@gmail.com"
+console.log(userOne.email); 
+console.log(userTwo.email); //yeah dono same h , kyuki reference milta h , original value m change hoga
