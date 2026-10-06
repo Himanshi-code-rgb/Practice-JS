@@ -18,7 +18,7 @@ console.log(gameName); //output -> [String: 'Pubg']
 // isme 0th index pr p , 1 pr u (basically key value pair bnta h),and sath m kaafi saree methods bhi milte h . lga k use kr skte h
 console.log(gameName[0]); //output -> P
 
-console.log(gameName.__proto__); //output ->  {} object milta h 
+console.log(gameName.__proto__); //output ->  {} object milta h usme bohot sari properties h 
 
 //length
 console.log(gameName.length); //output -> 4
